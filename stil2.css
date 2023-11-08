@@ -1,0 +1,38 @@
+body {
+background-color: rgb( 185, 230, 238 );
+padding-left: 25px;
+}
+
+
+
+#zadatak2 h1 {
+    font-family: 'Alfa Slab One', serif;
+    color: black;
+	font-size: 26px;
+	text-transform: uppercase;
+}
+
+#zadatak2 ol {
+	font-family: 'Alfa Slab One', serif;
+    color: black;
+	font-size: 20px;
+	text-transform: uppercase;
+	
+}
+	
+#zadatak2 > ol {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    width: 500px;
+    padding: 25px 0;
+	float: left;
+    list-style-type: none;
+}
+
+#zadatak2 ol ol {
+    font-family: 'Gloria Hallelujah', cursive;
+	font-weight: bold;
+    color: rgb(67, 147, 162);
+	text-transform: none;
+}
+

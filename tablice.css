@@ -1,0 +1,127 @@
+body {
+	background-color:  #e4d1d1 ;
+    font-family: monaco,Consolas,Lucida Console,monospace;
+    margin: 50px 0 0 50px;
+}
+#zadatak1 h1 {
+    color: #77a8a8;
+    border-bottom: 8px double;
+	font-family: 'Pacifico', cursive;
+}
+#zadatak1 h1, #zadatak1 table {
+    width: 500px;
+}
+#zadatak1 table {
+    border-collapse: collapse;
+}
+#zadatak1 th {
+    font-size: 25px;
+    font-weight: bold;
+    background-color:  #77a8a8  ;
+    text-transform: uppercase;
+    color: #d9ecd0;
+    text-align: center;
+    height: 50px;
+}
+
+#zadatak1 td {
+	border-width: 5px;
+	border-style: ridge;
+	padding: 3px;
+}
+
+#zadatak1 tr:nth-child(2n) {
+    background-color:  #b9b0b0 ;
+}
+
+
+
+
+
+#zadatak2 {
+    margin: 100px 0;
+    width: 400px;
+    height: 400px;
+}
+
+#zadatak2 table {
+    width: 200px;
+    height: 200px;
+    float: left;
+    border: 5px solid black;
+	border-style: dotted;
+    box-sizing: border-box;
+}
+
+#crveni {
+    background-color:  #ec7063 ;
+    border-radius: 100px 100px 0 100px;
+}
+
+#zeleni {
+    background-color:  #58d68d;
+    border-radius: 100px 100px 100px 0;
+}
+
+#plavi {
+    background-color:  #85c1e9 ;
+    border-radius: 100px 0 100px 100px;
+}
+
+#zuti {
+    background-color:  #f7dc6f ;
+    border-radius: 0 100px 100px 100px;
+}
+
+
+
+
+
+
+
+
+#zadatak1 ul {
+    list-style: none;
+    padding: 0;
+}
+#zadatak1 li {
+	box-sizing:border-box;
+	display: inline-block;
+	text-align: center;
+    width: 200px;
+    background-color: #77a8a8;
+    border: 5px black;
+	border-style: double;
+    
+    
+}
+#zadatak1 li a {
+    color: #d9ecd0;
+    font-family: monaco,Consolas,Lucida Console,monospace;
+    font-size: 20px;
+    text-align: center;
+	text-transform: uppercase;
+    text-decoration: none;
+}
+
+#zadatak1 li a:hover {
+    font-family: Courier;
+    font-size: 22px;
+    text-shadow: 3px 3px 2px black;
+}
+
+
+
+#zadatak3 {
+    margin: 100px 0 1000px;
+    clear: both;
+}
+#zadatak3 h1 {
+    color: #77a8a8;
+	width: 300px;
+    border-bottom: 8px double;
+	font-family: 'Pacifico', cursive;
+}
+#zadatak3 p {
+	width: 1000px;
+}
