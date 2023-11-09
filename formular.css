@@ -1,0 +1,65 @@
+body {
+    margin: 50px;
+    font-family: 'Courier New', monospace;
+	background-color: #e3c1cb;
+}
+
+
+h1{
+font-family: 'Courier New', monospace;
+color: #D16587;
+} 
+
+form {
+	font-size: 20px;
+    width: 500px;
+    padding: 20px;
+    background-color: #db8ca4;
+    border: 6px double white;
+    border-radius: 10px;
+}
+
+input, fieldset, select {
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-size: 15px;
+    width: 95%;
+    padding: 15px;
+    margin: 10px;
+    background-color: rgba(255,255,255,.5);
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+input:focus {
+    background-color: #c49ba8;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+fieldset input {
+    width: 10%;
+}
+fieldset label {
+    display: inline-block;
+    width: 80%;
+}
+
+input[type="submit"], input[type="reset"] {
+    width: 100px;
+    height: 50px;
+    padding: 2px;
+    margin-left: 10px;
+    box-shadow: 3px 3px 3px #63434d;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    box-shadow: 3px 5px 3px #63434d;
+}
+
+input[type="color"] {
+    height: 60px;
+    padding: 2px;
+}
