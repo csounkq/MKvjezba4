@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>formular</title>
+    <link rel="stylesheet" href="formular.css">
+
+</head>
+<body>
+    <h1>PRIJAVE ZA ONLINE GLAZBENI TEČAJ</h1>
+	<form action="mailto:tonkakladaric.1905@gmail.com" method="post" enctype="text/plain">
+	
+		<label for="ime">Ime i Prezime</label>
+        <input type="text" id="ime" name="imeiprezime" placeholder="Ime Prezime" autofocus required>
+		
+		<label for="rodjendan">Datum rođenja</label>
+        <input type="date" name="rodendan" id="rodjendan">
+		
+		<label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="vašeime@vašadomena.com" required>
+		
+		<label for="name">Username</label>
+        <input type="text" id="name" name="username" placeholder="Odaberite username..." autofocus required>
+       
+        <label for="lozinka">Password</label>
+        <input type="password" id="lozinka" maxlength="10" placeholder="Odaberite lozinku..." required>
+		
+        <label for="web">Link omiljene pjesme</label>
+        <input type="url" id="web" name="link" placeholder="https://www.youtube.com/">
+		
+        <label for="broj">Koliko se godina bavite glazbom?</label>
+        <input type="number" id="broj" name="iskustvo" placeholder="2.5">
+	
+
+	
+		<fieldset>
+            <legend>Ja sam:</legend>
+            <input type="radio" value="A" id="A" name="podrucje"><label for="A">Tekstopisac</label> 
+            <input type="radio" value="B" id="B" name="podrucje"><label for="B">Instrumentalist</label>
+			<input type="radio" value="C" id="C" name="podrucje"><label for="C">Producent</label>			
+        </fieldset>
+        
+        <fieldset>
+            <legend>Znam svirati:</legend>
+            <input type="checkbox" value="klavir" id="klavir" name="sviram">
+			<label for="klavir">Klavir</label> 
+            <input type="checkbox" value="gitaru" id="gitaru" name="sviram">
+			<label for="gitaru">Gitaru</label> 
+			<input type="checkbox" value="violinu" id="violinu" name="sviram">
+			<label for="violinu">Violinu</label>
+            <input type="checkbox" value="ne" id="ne" name="sviram">
+			<label for="ne">Ne sviram instrument</label> 
+		</fieldset>
+
+		<fieldset>
+        <legend>Želim naučiti svirati:</legend>
+        <select>
+            <option>Klavir</option>
+            <option>Gitaru</option>
+            <option>Violinu</option>
+        </select>
+		</fieldset>
+
+        <label for="boja">Odaberite boju vašeg profila</label>
+        <input type="color" id="boja" name="boja">
+
+        
+
+        <input type="image" src="lijeva.png" alt="reset" style="width:100px;height:100px;">
+        <input type="image" src="desna.png" alt="submit" style="width:100px;height:100px;">
+	
+	
+	</form>
+</body>
+</html>
